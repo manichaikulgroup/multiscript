@@ -3,9 +3,9 @@
 # create_multiscript.pl
 #
 # the aim is to create a set of script input files 
-# for running a set of bsh files on the cluster
+# for running a set of bsh or other script files on the cluster
 #
-# Create a single bsh file containing the string SUB whereever you
+# Create a single bsh or other script file containing the string SUB whereever you
 # want to substitute a number.
 #
 # Go to the directory you want to run your bsh jobs, and type 
@@ -13,7 +13,7 @@
 # replacing input.bsh with your bsh input file, and 0 and 25 with the
 # lower and upper numbers for your runs.
 #
-# This perl script will create a set of  input files, named similar to your input text in??.suffix,
+# This perl script will create a set of input files, named similar to your input text in??.suffix,
 ######################################################################
 
 use Cwd;
